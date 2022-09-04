@@ -1,0 +1,69 @@
+body{
+    margin: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.personal{
+    opacity: 1;
+    width: 150px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+    
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.personal:hover .image {
+    opacity: 0.3;
+  }
+.container:hover .middle {
+opacity: 1;
+}
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+.card{
+    width: 500px;
+    
+    margin: 0 auto ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #283618;
+    background: #fefae0;
+   
+    
+}
+.border{
+    border-bottom: 15px solid #606c38;
+    border-radius: 12px;
+}
+/* .linkedin , .github , .mail{
+    transition-duration: 0.4s;
+    
+    
+}
+.linkedin:hover , .github:hover , .mail:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    
+  } */
+
+
+  
